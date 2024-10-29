@@ -1,5 +1,5 @@
 {
-  "name": "@ueqt/react-chrono",
+  "name": "react-ueqttimeline",
   "version": "2.6.1",
   "license": "MIT",
   "description": "A Modern Timeline component for React 17",
