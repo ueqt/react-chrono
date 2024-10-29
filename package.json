@@ -39,7 +39,7 @@
     "size-limit": "pnpm rollup && pnpm size-limit",
     "build": "pnpm rollup",
     "fix-css": "stylelint src/**/*style.ts --custom-syntax @stylelint/postcss-css-in-js --fix",
-    "publish": "npm push --registry https://registry.npmjs.org/"
+    "publish": "npm publish --registry https://registry.npmjs.org/"
   },
   "dependencies": {
     "classnames": "^2.5.1",
