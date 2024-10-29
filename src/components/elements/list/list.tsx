@@ -2,7 +2,7 @@
 import { getUniqueID } from '@utils/index';
 import {
   FunctionComponent,
-  startTransition,
+  // startTransition,
   useCallback,
   useState,
 } from 'react';
@@ -53,9 +53,9 @@ const List: FunctionComponent<ListModel> = ({
       const item = listItems.find((item) => item.id === id);
 
       if (item.onSelect) {
-        startTransition(() => {
+        // startTransition(() => {
           item.onSelect();
-        });
+        // });
       }
     } else {
       onClick?.(id);
